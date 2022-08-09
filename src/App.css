@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+
+.git-link {
+  text-decoration: none;
+  color: rgb(55, 84, 8);
+}
+.git-link:hover {
+  color: rgb(97, 148, 15);
+}
