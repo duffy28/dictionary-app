@@ -11,7 +11,13 @@ export default function Definition(props) {
             </p>
             <ul>
               {meaning.definitions.map(function (definition, index) {
-                return <li key={index}>{definition.definition}</li>;
+                return (
+                  <li key={index}>
+                    {definition.definition}
+                    <br />
+                    <em>{definition.example}</em>
+                  </li>
+                );
               })}
             </ul>
           </div>
