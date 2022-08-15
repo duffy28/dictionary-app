@@ -2,7 +2,6 @@ import React from "react";
 import Definitions from "./Definitions";
 
 export default function SearchResults(props) {
-  console.log(props.data);
   if (props.data) {
     return (
       <div>

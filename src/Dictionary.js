@@ -21,7 +21,6 @@ export default function Dictionary() {
 
   function getData(response) {
     setResults(response.data[0]);
-    console.log(response.data[0].meanings[0].definitions[0].definition);
   }
 
   return (
