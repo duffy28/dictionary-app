@@ -3,12 +3,18 @@ import React from "react";
 export default function Phonetics(props) {
   return (
     <div>
-      <p>{props.phonetics[0].text}</p>
-      <p>
-        <a href={props.phonetics[0].audio} target="_blank" rel="noreferrer">
-          Listen
-        </a>
-      </p>
+      {props.phonetics.map(function (phonetic, index) {
+        return (
+          <div key={index}>
+            <p>{phonetic.text}</p>
+            <p>
+              <a href={phonetic.audio} target="_blank" rel="noreferrer">
+                Listen
+              </a>
+            </p>
+          </div>
+        );
+      })}
     </div>
   );
 }
