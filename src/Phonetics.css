@@ -1,0 +1,14 @@
+.audio-button {
+  border: 2px solid rgb(55, 84, 8);
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: rgb(55, 84, 8);
+  background: rgb(253, 255, 249);
+}
+.audio-button:hover {
+  background: rgb(55, 84, 8);
+  color: rgb(253, 255, 249);
+}
+.row {
+  margin: 10px 0;
+}

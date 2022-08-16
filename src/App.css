@@ -1,8 +1,13 @@
 header {
   text-align: center;
+  margin: 40px 0;
 }
 footer {
   text-align: center;
+  margin-top: 40px;
+}
+body {
+  background: rgb(235, 255, 203);
 }
 
 .git-link {

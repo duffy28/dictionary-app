@@ -8,9 +8,7 @@ function App() {
         <h1>Dictionary</h1>
       </header>
 
-      <div className="container">
-        <Dictionary />
-      </div>
+      <Dictionary />
 
       <footer>
         <p>

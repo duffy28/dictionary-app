@@ -1,0 +1,11 @@
+.syn-list {
+  list-style: none;
+}
+.synonyms {
+  border: 2px solid rgb(55, 84, 8);
+  border-radius: 15px;
+  padding: 5px;
+  color: rgb(55, 84, 8);
+  background: rgb(253, 255, 249);
+  text-align: center;
+}

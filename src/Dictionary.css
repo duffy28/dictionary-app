@@ -1,3 +1,11 @@
 form {
   text-align: center;
 }
+a {
+  color: rgb(55, 84, 8);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(97, 148, 15);
+}
