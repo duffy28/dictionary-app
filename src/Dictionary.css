@@ -9,3 +9,17 @@ a {
 a:hover {
   color: rgb(97, 148, 15);
 }
+
+.search-bar {
+  margin: 10px;
+  padding: 20px;
+  border: 1px transparent;
+  border-radius: 40px;
+}
+.search-bttn {
+  margin: 10px;
+  padding: 20px 25px;
+  border: 1px transparent;
+  border-radius: 30px;
+  background-color: rgb(185, 200, 160);
+}
