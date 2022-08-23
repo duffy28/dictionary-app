@@ -9,6 +9,10 @@ footer {
 body {
   background: rgb(235, 255, 203);
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 .git-link {
   text-decoration: none;

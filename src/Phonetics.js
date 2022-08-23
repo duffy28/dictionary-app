@@ -4,19 +4,19 @@ import "./Phonetics.css";
 
 export default function Phonetics(props) {
   return (
-    <div>
+    <div className="container">
       {props.phonetics.map(function (phonetic, index) {
         return (
           <div key={index} className="row">
             <a
-              className="col-1"
+              className="col-lg-1"
               href={phonetic.audio}
               target="_blank"
               rel="noreferrer"
             >
               <button className="audio-button">🔊 Listen</button>
             </a>
-            <p className="col">{phonetic.text}</p>
+            <p className="col-lg txt">{phonetic.text}</p>
           </div>
         );
       })}

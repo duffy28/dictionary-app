@@ -18,7 +18,7 @@ function App() {
             rel="noreferrer"
             className="git-link"
           >
-            Open-Source Code
+            Open Source Code
           </a>{" "}
           by Shaun Duffy
         </p>
